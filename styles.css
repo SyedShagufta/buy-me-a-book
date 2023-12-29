@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FF8080;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#noButton{
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+
+#yesButton{
+    position: absolute;
+    margin-right: 150px;
+}
+.btn{
+    background-color: #85586F;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.ask{
+    font-family: 'nunito';
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.gif-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.center-container{\
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+
+}
